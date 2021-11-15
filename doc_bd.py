@@ -115,8 +115,7 @@ class Documents:
                 expresion += f"{str(self.presence_matrix[d][value]) if value != -1 else str(0)} "
 
             evaluacion = int(eval(expresion)) # se evalua la expresion
-            print(f"{self.keys[d]} {expresion} ->  {evaluacion} " + ("OK!" if evaluacion else ""))
-            result.append(f"{self.keys[d]} {expresion} ->  {evaluacion} " + ("OK!" if evaluacion else ""))
+            result.append(f"{self.keys[d]}: {expresion} ->  {evaluacion} " + ("OK!" if evaluacion else ""))
             if evaluacion:
                 doc_ok.append(self.keys[d])
         return result, doc_ok
