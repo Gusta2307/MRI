@@ -3,7 +3,7 @@ import streamlit as st
 from doc_bd import Documents
 import pandas
 
-st.title("Aqui va un titulo")
+st.title("Sistema de Recuperacion de Informacion")
 uploaded_file = st.file_uploader("Choose a CSV file", accept_multiple_files=False)
 df = None
 print(uploaded_file)
