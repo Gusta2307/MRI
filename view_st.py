@@ -8,8 +8,9 @@ uploaded_file = st.file_uploader("Choose a CSV file", accept_multiple_files=Fals
 df = None
 print(uploaded_file)
 if uploaded_file != None:
-    df = pandas.read_csv(uploaded_file)
-    st.table(df)
+    df = open('test_booleano.json')
+    #df = pandas.read_csv(uploaded_file)
+    # st.table(df)
 
 metodo = st.selectbox("Elija el m\'etodo que desea utilizar:", ["Booleano", "Vectorial", "Probabilistico"])
 

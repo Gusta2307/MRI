@@ -1,14 +1,17 @@
-
+from collections import Counter
+import math
+import json
 
 class Documents:
     def __init__(self, document):
-        self.doc_original = document
+        self.doc_original = json.loads(document.read())['documents'][0]
 
         # Para obtener las dimensiones de la matriz
-        self.doc_count, self.terms_count = len(self.doc_original), len(self.doc_original.columns)
+        self.doc_count = len(self.doc_original.keys())
+        #self.terms_count = len(self.doc_original.columns)
 
         #Para obtener por la relacion documento-termino
-        self.dic = {}
+        self.dic = {} 
 
         #Para guardar todos los terminos
         self.terms = []
@@ -16,27 +19,33 @@ class Documents:
         self.keys = []
 
         self.__initialize()
+        
+        #Tablas
+
+        self.frec_i_j, self.presence_matrix = frec_ij(self.terms, self.dic)
+
+        self.f_i_j = f_ij(self.frec_i_j)
+
+        self.idf_i = idf_i(len(self.keys), self.terms, self.dic)
+
+        self.w_i_j = w_ij(self.f_i_j, self.idf_i)
 
         # Matriz de incidencia de documento-termino que representa la lista de todos los terminos distintos
         # y su presencia en cada documento (vector de incidencia)
         
-        self.presence_matrix = []
-        self.__initialize_presence_matrix()
+        # self.presence_matrix = []
+        # self.__initialize_presence_matrix()
     
 
     def __initialize(self):
-        key = ""
-        for r in range(self.doc_count):
-            for c in range (self.terms_count):
-                if c == 0:
-                    key = self.doc_original.loc[r].iat[c]
-                    self.keys.append(key)
-                    self.dic.update({key: []})
-                else:
-                    self.dic[key].append(self.doc_original.loc[r].iat[c])
-
-                    if self.doc_original.loc[r].iat[c] not in self.terms:
-                        self.terms.append(self.doc_original.loc[r].iat[c])
+        for d in self.doc_original.keys():
+            self.keys.append(d)
+            list_term_ocurr = list(Counter(self.doc_original[d]).items())
+            list_term_ocurr.sort(key = lambda x: x[0])
+            self.dic.update({d: list_term_ocurr})
+            for t,_ in list_term_ocurr:
+                if t not in self.terms:
+                    self.terms.append(t)
 
         self.terms.sort()
         
@@ -44,6 +53,7 @@ class Documents:
         for d in range (self.doc_count):
             temp = []
             for t in range (len(self.terms)):
+
                 temp.append(int(self.terms[t] in self.dic[self.keys[d]]))
 
             self.presence_matrix.append(temp) 
@@ -81,9 +91,7 @@ class Documents:
         print("RETORNADO POR EL PARSER ->", token)
         return token
             
-
     def metodo_booleano(self, query):
-        print("Introduzca la consulta")
         result = []
         doc_ok = []
         token_list = self.parser(query) # Se parsea la consulta
@@ -120,13 +128,64 @@ class Documents:
                 doc_ok.append(self.keys[d])
         return result, doc_ok
 
-
     def __str__(self) -> str:
         print(self.dic)
         print(self.terms)
         print(self.presence_matrix)
         return ""
     
+    def metodo_vectorial(self, query):
+
+        return 0
+
+
+def frec_ij(terms, dic):
+    result = []
+    matriz = []
+    for key in dic.keys():
+        temp = []
+        temp_row = []
+        for term in terms:
+            ocurr_temp = 0
+            for t,o in dic[key]:
+                if term == t:
+                    ocurr_temp = o
+                    break
+            temp.append(ocurr_temp)
+            temp_row.append(1 if ocurr_temp > 0 else 0)
+        matriz.append(temp_row)
+        result.append(temp)
+    return result, matriz
+                
+def f_ij(frec):
+    return [[i/max(item) for i in item] for item in frec]
+
+def idf_i(N, terms, dic):
+    result = []
+    for term in terms:
+        n = 0
+        for key in dic.keys():
+            for t,_ in dic[key]:
+                if t == term:
+                    n += 1
+        result.append(truncate(math.log10(N/n),2))
+    return result
+
+def w_ij(f_ij, idf_i):
+    result = []
+    for i in range(len(f_ij)):
+        temp = []
+        for j in range(len(idf_i)):
+            temp.append(f_ij[i][j]*idf_i[j])
+        result.append(temp)
+    return result
+
+
+
+
+def truncate(num, n):
+    integer = int(num * (10**n))/(10**n)
+    return float(integer)
 
 def isOp(text):
     return text == '(' or text == "and" or text == "or" or text == "not" or text == ")"
