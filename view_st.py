@@ -5,7 +5,7 @@ import pandas
 
 st.title("Sistema de Recuperaci\'on de Informaci\'on")
 # uploaded_file = st.file_uploader("Choose a CSV file", accept_multiple_files=False)
-df = open('test_booleano.json')
+df = open("./test_booleano.json")
 # print(uploaded_file)
 # if uploaded_file != None:
     #df = pandas.read_csv(uploaded_file)
