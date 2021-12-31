@@ -1,8 +1,5 @@
 from collections import Counter
-
-from nltk.probability import log_likelihood
 from utils import truncate
-import math
 import json
 import preprocesamiento
 class Documents:
