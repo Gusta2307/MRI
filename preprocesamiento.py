@@ -1,7 +1,9 @@
 import spacy
+import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.stem import PorterStemmer
 
+nltk.download('wordnet')
 
 nlp = spacy.load('en_core_web_sm')
 lemmatizer = WordNetLemmatizer()
