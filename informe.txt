@@ -1,0 +1,18 @@
+Presentación de las herramientas empleadas para la programación y aspectos más importantes
+del código.
+
+Lo primero que realiza el sistema es el preprocesamiento de los documentos, para ello se utiliza principalmente las librerias de python nltk y spacy. 
+Los documentos pasan por 4 fases: tokenizacion, limpieza de texto, nomalizacion y lematizacion. 
+En tokenizacion se convierte el texto una lista lista de tokens para ello se utiliza spacy.load('en_core_web_sm').
+
+(Foto TOKENIZACION)
+
+En la limpieza de texto  y normalizacion se eliminan todos los signos de puntuacion y las stopwords, ademas de que se convierte todas las palabras con letras minusculas
+
+(Foto LIMPIEZA DE TEXTO Y NORMALIZACION)
+
+y por ultimo en la lematizacion se llevan las palabras a su forma mas simple utilizando nltk.stem.WordNetLemmatizer 
+
+(Foto LEMATIZACION)
+
+La implementacion del metodo booleano se encuentra en herramienta.py; es valido destacar que ademas de preprocesar los documentos 

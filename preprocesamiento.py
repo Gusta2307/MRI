@@ -1,11 +1,6 @@
-from nltk.util import pr
 import spacy
-import nltk
 from nltk.stem import WordNetLemmatizer
-from nltk.corpus import stopwords
-
 from nltk.stem import PorterStemmer
-from spacy.tokens.token import Token
 
 
 nlp = spacy.load('en_core_web_sm')
