@@ -60,7 +60,7 @@ if st.button("Submit") and query != "":
             st.error("No se recupero ningún documento")
         str_term =''
         if term_omitidos:
-            str_term += f"Esta consulta contiene los siguientes términos que pueden ser considerados irrelevantes, lo cual puede afectar el resultaddo de la busqueda de manera desfavorable \n"
+            str_term += f"Esta consulta contiene los siguientes términos que pueden ser considerados irrelevantes, lo cual puede afectar el resultado de la búsqueda de manera desfavorable \n"
             for term in term_omitidos:
                 str_term += '- ' + str(term) + "\n"
             st.warning(str_term)
