@@ -1,0 +1,44 @@
+Presentación de las herramientas empleadas para la programación y aspectos más importantes del código.
+
+- Preprocesamiento
+Lo primero que realiza el sistema es el preprocesamiento de los documentos, para ello se utiliza principalmente las librerias de python nltk y spacy. 
+Los documentos pasan por 4 fases: tokenización, limpieza de texto, nomalización y lematización. 
+En tokenización se convierte el texto una lista lista de tokens para ello se utiliza spacy.load('en_core_web_sm').
+
+(Foto TOKENIZACION)
+
+En la limpieza de texto  y normalización se eliminan todos los signos de puntuación y las stopwords, además de que se convierte todas las palabras con letras mínusculas
+
+(Foto LIMPIEZA DE TEXTO Y NORMALIZACION)
+
+y por último en la lematización se llevan las palabras a su forma mas simple utilizando nltk.stem.WordNetLemmatizer 
+
+(Foto LEMATIZACION) 
+
+- metodo booleano
+La implementación del método booleano se encuentra en herramienta.py. Es válido destacar que además de preprocesar los documentos de igual manera se preprocesa cada término de las consultas.
+El sistema tiene incorporado la retroalimentación a través de la expansión de consultas. Para esta funcionalidad, por cada término de la consulta se hace una búsqueda en una base de conocimientos Tesauro 
+con el objetivo de encontras palabras con as que se relacionas el término para realizar una mejor recuperación de documentos. 
+
+- Expansion de consulta
+Para la implementación del Tesauro se utiliza nuevamente la librería nltk, primero se busca todos los sinónimos posibles del término con 
+nltk.corpus.wordnet.synsets, luego por cada uno de estos sinónimos con ayuda de la propiedad lemmas se devuelve una serie de palabras con las que 
+esta relacionado y por transitividad con el término. Además como parte de la expansión de consulta esta implementado la reformulación de consultas, para ello
+se le muestra al usuario las palabras llamadas stopwords utilizadas en la consulta y se le advierte que puede influir desavorablemente en el resultado
+de la misma. Además de mostrar un listado con los términos indexados para que el usuario pueda sellecionar algunos de ellos para su búsqueda. No se le sugiere nuevos 
+términos semejantes a los de la consulta pues como se dijo anteriormente en el tesauro se tiene en cuenta los sinónimos. 
+
+-interfaz visual para la realización de consultas
+
+Para la interfaz visual, se utilizó como herramienta principal Streamlit para el diseño de una pequeña página web con python como lenguaje de programación sin necesidad
+de tener ningún conocimiento de front-end. 
+
+Para los títulos y subtítulos se utilizó los métodos title y subheader respectivamente. Para la lista de términos indexados se utilizo text, para la barra donde 
+se introduce la consulta text_input y code para los imprimir los resultados . Para alertar al usuario del uso de las palabras stopwords en la consulta se utilizó warnig.
+
+
+Actualmente la página web se encuentra hosteada en heroku por lo que para poder visualizarla y usarla con total libertad solo es necesario acceder a https://proyecto-sri.herokuapp.com
+
+
+
+

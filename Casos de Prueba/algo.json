@@ -1,0 +1,7 @@
+{"documents": [{
+    "d1": ["leon", "leon", "leon"],
+    "d2": ["zorro", "leon", "leon", "leon"],
+    "d3": ["leon", "zorro", "nutria"],
+    "d4": ["leon", "leon", "leon", "zorro", "zorro", "zorro"],
+    "d5": ["nutria"]
+}]}

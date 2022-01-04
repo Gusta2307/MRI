@@ -4,11 +4,12 @@ import json
 import preprocesamiento
 class Documents:
     def __init__(self, document):
-        self.doc_original = json.loads(document.read())['documents'][0]
+        self.doc_original = json.loads(document.read())
+        print (self.doc_original)
 
         
 
-        self.doc_preprocesado = {doc : preprocesamiento.preprocesamiento_del_texto(self.doc_original[doc]) for doc in self.doc_original}
+        self.doc_preprocesado = {doc : preprocesamiento.preprocesamiento_del_texto(self.doc_original[doc]["texto"]) for doc in self.doc_original}
 
 
         #print(self.doc_preprocesado)
