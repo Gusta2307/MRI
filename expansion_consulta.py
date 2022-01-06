@@ -7,7 +7,7 @@ from preprocesamiento import preprocesamiento_del_texto
 
 def palabras_relacionadas(palabra):
     syns = wordnet.synsets(palabra) 
-    palabras = set()
+    palabras = set([palabra])
     for i in syns: 
         for l in i.lemmas():
             if '-' in l.name(): 

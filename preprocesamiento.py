@@ -3,7 +3,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.stem import PorterStemmer
 
-nltk.download('wordnet')
+# nltk.download('wordnet')
 
 nlp = spacy.load('en_core_web_sm')
 lemmatizer = WordNetLemmatizer()
@@ -11,6 +11,7 @@ stemmer = PorterStemmer()
 
 def tokenizacion(texto):
     doc = nlp(texto) # Crea un objeto de spacy tipo nlp
+    
     tokens = [t.orth_ for t in doc] # Crea una lista con las palabras del texto
     return tokens
 
@@ -35,4 +36,4 @@ def preprocesamiento_del_texto(texto):
     # print("LIMPIEZA", tokens, end='\n\n')
     tokens = lematizacion(" ".join(tokens))
     # print('LEMATIZACION', tokens, end='\n\n')
-    return set(tokens)
+    return set([item for item in tokens if not item.isspace()])

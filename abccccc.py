@@ -22,7 +22,8 @@ with open('cran.all.1400', 'r') as f:
         temp_dic['b'] = b
         texto = " ".join(palabras[index_b + 1:])
 
-        temp_dic['texto'] = texto
+        temp_dic['texto'] = texto.replace("\\", "")
+       # temp_dic['texto'] = [p for p in temp_dic['texto'] if not p.isspace()]
 
         dic[id.strip()] = temp_dic
 
