@@ -9,7 +9,10 @@ with open('Test Collections/cisi/CISI.REL', 'r') as f:
     for doc in data_split:
         
         line = [item.strip() for item in doc.split(" ") if item != ''] 
-        print(line)
+        temp_line = line.pop()
+        for item in temp_line.split('\t'):
+            line.append(item)
+        # print(line)
         if not int(line[0]) in dic.keys():
             dic[int(line[0])] = {}
         

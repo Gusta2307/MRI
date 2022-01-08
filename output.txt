@@ -1,1 +1,1513 @@
-{'hola', 'pepe'}
+
+---------------------------------------------------
+1
+REC set()
+REL {'29', '66', '102', '879', '37', '875', '12', '195', '880', '462', '876', '859', '95', '14', '30', '858', '31', '57', '378', '52', '185', '15', '56', '142', '51', '13', '497'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+2
+REC set()
+REL {'390', '380', '102', '442', '857', '877', '285', '864', '12', '859', '14', '858', '184', '202', '52', '746', '658', '15', '856', '391', '51', '948', '643', '497'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+4
+REC set()
+REL {'166', '236'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+8
+REC set()
+REL {'1112', '122', '360', '197', '58', '48', '354', '1005', '20', '196', '999'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+9
+REC set()
+REL {'22', '21', '550'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+10
+REC set()
+REL {'438', '405', '436', '437', '1011', '259', '998', '302'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+12
+REC set()
+REL {'652', '649', '650', '86', '194'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+13
+REC set()
+REL {'64', '311', '65', '265'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+15
+REC set()
+REL {'462', '463'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+18
+REC set()
+REL {'198', '197', '196'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+22
+REC set()
+REL {'68'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+23
+REC {'624'}
+REL {'200', '1333', '597', '1272', '917', '634', '601', '593', '704', '1256', '705', '900', '1109', '919', '199', '201', '1197', '1290', '594', '899', '903', '544', '698', '1289', '700', '1141', '1112', '1259', '749', '687', '902', '901'}
+RR: set()
+RI: {'624'}
+precision 0.0
+recobrado 0.0
+
+---------------------------------------------------
+26
+REC set()
+REL {'376', '1076', '406', '145', '565', '611'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+27
+REC set()
+REL {'278', '428', '224'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+29
+REC set()
+REL {'464', '609', '250', '466', '225', '514', '465', '612', '793'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+31
+REC set()
+REL {'776'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+32
+REC set()
+REL {'250', '249', '247', '777', '465', '778'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+33
+REC set()
+REL {'431', '252', '141'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+34
+REC set()
+REL {'431', '672', '252', '799', '714', '800'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+35
+REC set()
+REL {'167', '132', '166'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+39
+REC set()
+REL {'24', '557', '554', '556', '505', '555', '207', '283', '1257', '272', '418', '79', '552'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+40
+REC set()
+REL {'24', '557', '554', '558', '556', '555', '283', '553', '272', '976', '85', '552'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+41
+REC set()
+REL {'288', '289', '433'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+49
+REC set()
+REL {'478', '320'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+50
+REC set()
+REL {'306', '629', '22', '94', '21', '326'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+51
+REC set()
+REL {'63', '629', '94', '105', '23', '326', '494', '192', '381', '261'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+52
+REC set()
+REL {'326', '306', '22', '21'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+53
+REC set()
+REL {'33', '208', '446', '298', '448', '296', '297', '299', '447', '449'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+54
+REC set()
+REL {'24', '628', '294', '101', '84', '364', '661', '365', '560'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+55
+REC set()
+REL {'377', '375', '376', '255', '271', '378', '502', '562', '460', '16'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+56
+REC set()
+REL {'779', '705', '14', '380', '379', '780', '643', '749', '1339', '686'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+57
+REC {'752'}
+REL {'857', '859', '779', '914', '14', '705', '380', '379', '780', '12', '746', '593', '704', '15'}
+RR: set()
+RI: {'752'}
+precision 0.0
+recobrado 0.0
+
+---------------------------------------------------
+58
+REC set()
+REL {'786', '785', '787', '382', '784', '23', '788', '381', '789'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+59
+REC set()
+REL {'786', '785', '788', '787'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+61
+REC set()
+REL {'564', '1159', '566', '661', '565'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+62
+REC set()
+REL {'1084', '566', '567', '1081', '1078'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+66
+REC set()
+REL {'180', '629', '664', '660', '659'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+67
+REC set()
+REL {'180', '394', '4', '629', '664', '1302', '393', '128', '659', '323', '324', '389', '3', '2'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+68
+REC set()
+REL {'62', '101', '662', '661', '460'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+69
+REC set()
+REL {'62', '977', '570', '336', '458'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+71
+REC set()
+REL {'655', '101', '798', '572', '571', '1213', '569', '1355'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+72
+REC set()
+REL {'304', '305', '570', '655', '62', '388', '664', '94', '630', '128', '663', '309', '571', '323', '21', '324', '494'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+74
+REC set()
+REL {'576', '317', '578', '575', '656', '574'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+79
+REC set()
+REL {'713', '688', '597', '708', '598'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+80
+REC set()
+REL {'598', '597', '594', '596'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+81
+REC set()
+REL {'799', '672'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+82
+REC set()
+REL {'676', '679', '678', '205', '677'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+83
+REC set()
+REL {'681', '683', '682', '680'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+84
+REC set()
+REL {'606', '522', '294', '1192', '142', '1213', '608', '962', '873', '406', '354'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+85
+REC set()
+REL {'406', '606', '608', '710'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+86
+REC set()
+REL {'790', '594'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+87
+REC set()
+REL {'606', '609', '612', '236', '50', '406', '562', '611'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+93
+REC set()
+REL {'691'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+94
+REC set()
+REL {'559', '24', '1393', '689', '1104', '1161', '294', '690', '101', '283', '354', '1395'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+95
+REC set()
+REL {'662', '283'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+97
+REC set()
+REL {'702', '1289', '779', '698', '681', '699', '1339', '701', '700', '703'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+98
+REC set()
+REL {'713', '712', '708', '711', '709'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+99
+REC set()
+REL {'1001', '717', '719', '1379'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+100
+REC set()
+REL {'821', '1122', '1121', '823', '824', '1051', '820', '825', '822'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+101
+REC set()
+REL {'817', '824', '819', '818', '820', '825'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+102
+REC set()
+REL {'728', '911', '913', '910'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+103
+REC set()
+REL {'826', '828'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+104
+REC set()
+REL {'837', '835', '834', '833', '836'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+105
+REC set()
+REL {'848', '844', '846', '845', '847'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+106
+REC {'388'}
+REL {'844', '846', '845', '849', '847'}
+RR: set()
+RI: {'388'}
+precision 0.0
+recobrado 0.0
+
+---------------------------------------------------
+107
+REC set()
+REL {'911', '75', '728', '725', '909', '729', '720'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+108
+REC set()
+REL {'75', '909', '723', '720', '727', '724', '726'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+109
+REC set()
+REL {'606', '12', '980', '860', '861'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+110
+REC set()
+REL {'31', '1174', '863', '862'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+111
+REC {'540'}
+REL {'914', '391', '864', '627', '392', '658', '15'}
+RR: set()
+RI: {'540'}
+precision 0.0
+recobrado 0.0
+
+---------------------------------------------------
+112
+REC {'304', '540', '572', '25', '329'}
+REL {'731', '730'}
+RR: set()
+RI: {'304', '25', '329', '540', '572'}
+precision 0.0
+recobrado 0.0
+
+---------------------------------------------------
+113
+REC set()
+REL {'749', '265', '748', '746'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+114
+REC set()
+REL {'916', '919', '920', '921'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+116
+REC set()
+REL {'922', '492', '927', '360', '605'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+118
+REC set()
+REL {'925', '924', '923'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+119
+REC set()
+REL {'926'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+120
+REC set()
+REL {'888', '889', '887', '886', '829', '885', '890', '1146', '891'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+121
+REC set()
+REL {'888', '887', '886', '885', '890', '1146', '891'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+122
+REC set()
+REL {'1131', '936', '957', '931', '935', '938', '934', '937', '932'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+123
+REC set()
+REL {'967', '966'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+126
+REC set()
+REL {'1326', '187', '973', '970', '972', '974', '971', '969'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+128
+REC set()
+REL {'990', '985'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+130
+REC set()
+REL {'859', '858', '12', '1008', '766'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+131
+REC set()
+REL {'1014', '1013', '1012', '1020', '1016', '1019', '1018', '1017'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+132
+REC set()
+REL {'1015', '1014', '1013', '1023', '1012', '1020', '1016', '1026', '1019', '1025', '1024', '1018', '952', '1017', '951'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+133
+REC set()
+REL {'1012', '1020', '1016', '1019', '1024', '1018', '1022'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+135
+REC set()
+REL {'1023', '1026', '1016', '1025', '1024', '1018', '1017', '950'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+136
+REC set()
+REL {'1034', '1021', '1022'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+137
+REC set()
+REL {'1034', '951', '1021', '1029'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+138
+REC set()
+REL {'846', '1036'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+139
+REC set()
+REL {'1037', '1035', '1031', '1032'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+140
+REC set()
+REL {'1038', '1039', '1042', '1044', '1043', '1041'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+141
+REC set()
+REL {'1038', '1039', '1042', '1044', '1043', '1041'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+142
+REC {'329', '1393', '1104', '283'}
+REL {'1042'}
+RR: set()
+RI: {'329', '1393', '1104', '283'}
+precision 0.0
+recobrado 0.0
+
+---------------------------------------------------
+143
+REC {'635'}
+REL {'1043', '1044'}
+RR: set()
+RI: {'635'}
+precision 0.0
+recobrado 0.0
+
+---------------------------------------------------
+145
+REC set()
+REL {'1045', '838', '763', '839', '743', '852', '841'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+146
+REC set()
+REL {'840', '1045'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+147
+REC set()
+REL {'889', '1048', '1047', '926', '1049', '1050', '843', '1051', '1046', '822'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+148
+REC set()
+REL {'889', '1048', '1049', '1050', '843', '1046'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+149
+REC set()
+REL {'1058', '1052', '1131', '1059', '936', '930', '931', '938', '934', '1057', '937'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+150
+REC set()
+REL {'1074', '1075'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+152
+REC set()
+REL {'1077', '655', '572', '1076', '569', '687'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+153
+REC set()
+REL {'1080', '1085', '1082', '1083', '1084', '1081', '1078'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+154
+REC set()
+REL {'1088', '1087'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+155
+REC set()
+REL {'1104', '1099', '1100', '1101', '983', '1103'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+156
+REC set()
+REL {'1099', '1104', '274', '982', '983', '1097', '1098', '82', '1100', '1101', '553', '1102', '1103', '1096'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+157
+REC set()
+REL {'655', '122', '1304', '657', '605', '354', '1151', '456', '19', '1107', '626', '369', '273', '215', '25', '160', '423', '1355', '410', '1105', '1106', '44', '36', '370', '557', '689', '572', '161', '1307', '93', '35', '556', '1011', '482', '318', '421', '666', '372', '302'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+158
+REC {'75'}
+REL {'1011', '273', '556', '1010', '998', '302', '1009', '552'}
+RR: set()
+RI: {'75'}
+precision 0.0
+recobrado 0.0
+
+---------------------------------------------------
+160
+REC set()
+REL {'1138', '1136', '1137', '1134', '1135'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+161
+REC set()
+REL {'1386', '55', '996', '54', '336', '562'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+163
+REC set()
+REL {'56', '20', '57'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+164
+REC set()
+REL {'415', '335', '1367', '798', '316', '311', '1364', '416'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+165
+REC set()
+REL {'71', '72'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+167
+REC set()
+REL {'274', '82'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+168
+REC set()
+REL {'774', '217'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+169
+REC set()
+REL {'775', '118', '157', '774'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+170
+REC set()
+REL {'139', '672', '238', '906', '239', '904'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+171
+REC set()
+REL {'431', '252', '141'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+173
+REC set()
+REL {'367', '451'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+175
+REC set()
+REL {'964', '965', '351', '966', '967'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+176
+REC set()
+REL {'584', '583', '982', '978', '585', '582', '586'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+177
+REC set()
+REL {'589', '772', '592', '588', '590'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+181
+REC set()
+REL {'409', '973', '1061', '997', '974'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+182
+REC set()
+REL {'686', '685'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+183
+REC set()
+REL {'806', '811', '804', '809', '810', '1243', '802', '805', '803', '253', '807', '808', '1247'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+184
+REC set()
+REL {'716', '67', '717', '499', '32', '715', '1379'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+187
+REC set()
+REL {'1045', '838', '839', '840', '743', '842'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+189
+REC set()
+REL {'865', '868', '869', '866', '870', '867', '873', '395', '872'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+190
+REC set()
+REL {'390', '391', '285', '864', '15'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+196
+REC set()
+REL {'874', '51', '878', '875', '12', '202', '13', '185', '746', '880', '876', '879'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+200
+REC set()
+REL {'1138', '1137', '1134'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+201
+REC set()
+REL {'401', '369', '1391', '1295', '1304', '541', '625', '482', '110', '318', '160', '423', '1296', '1151', '93', '552'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+202
+REC {'1019'}
+REL {'1306', '1304', '604', '1110', '605', '603', '1310', '1303', '48', '1305', '1308', '602', '232', '1309'}
+RR: set()
+RI: {'1019'}
+precision 0.0
+recobrado 0.0
+
+---------------------------------------------------
+203
+REC set()
+REL {'122', '688', '1306', '1188', '604', '603', '58', '1310', '323', '1305', '602', '1307', '232', '19'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+204
+REC {'1019', '1028', '1016'}
+REL {'63', '655', '1188', '604', '540', '307', '572', '603', '1213', '1311', '1305', '602', '68', '1355'}
+RR: set()
+RI: {'1019', '1028', '1016'}
+precision 0.0
+recobrado 0.0
+
+---------------------------------------------------
+205
+REC set()
+REL {'1321', '1322'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+206
+REC set()
+REL {'1341', '1340', '1338'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+208
+REC set()
+REL {'1345', '164', '163', '1346', '1347', '1344'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+209
+REC set()
+REL {'1351', '55', '1350', '187', '1385', '45', '1228', '316', '1383', '1356', '487', '1106'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+210
+REC set()
+REL {'1030', '1174', '1172', '1173', '1171', '891'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+211
+REC set()
+REL {'1030', '1174', '1052', '769', '1031', '1172', '1173', '763', '1068', '1033', '891'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+212
+REC set()
+REL {'888', '889', '1177', '1176', '1178', '887', '769', '886', '1173', '843', '885', '890', '841', '891'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+213
+REC set()
+REL {'888', '889', '1177', '1178', '887', '769', '886', '1173', '843', '885', '890'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+214
+REC set()
+REL {'1362', '833', '1363', '1361'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+215
+REC set()
+REL {'37', '35'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+216
+REC set()
+REL {'156'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+217
+REC set()
+REL {'37', '559', '668', '1107', '1258', '667', '1391', '1204', '1394', '670', '630', '1300', '1213', '666', '1395'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+218
+REC set()
+REL {'559', '24', '1393', '1104', '1107', '1258', '667', '101', '1204', '630', '1300', '1213', '662', '666', '93'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+219
+REC set()
+REL {'559', '1080', '1107', '666', '1258', '1214', '1391', '1204', '1394', '630', '1300', '1213', '662', '1198', '667', '1395', '1081', '1078'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+223
+REC set()
+REL {'400', '1387', '1398', '1392'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+224
+REC set()
+REL {'1157', '1319', '1316', '1317', '1318', '1313', '656', '1274'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+---------------------------------------------------
+225
+REC set()
+REL {'1381', '1124', '1304', '923', '433', '40', '1305', '924', '1309', '449', '1074', '448', '1280', '293', '1213', '1380', '1062', '161', '1378', '1075', '1377', '225', '421', '1379'}
+RR: set()
+RI: set()
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+
+Precision promedio 0.0
+recobrado promedio 0.0

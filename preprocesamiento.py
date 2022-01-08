@@ -14,7 +14,6 @@ stop_words = set(stopwords.words('english'))
 
 def tokenizacion(texto):
     doc = nlp(texto) # Crea un objeto de spacy tipo nlp
-    
     tokens = [t.orth_ for t in doc] # Crea una lista con las palabras del texto
     return tokens
 
@@ -40,3 +39,6 @@ def preprocesamiento_del_texto(texto):
     tokens = lematizacion(" ".join(tokens))
     # print('LEMATIZACION', tokens, end='\n\n')
     return set([item for item in tokens if not item.isspace()])
+
+
+print(preprocesamiento_del_texto('contents'))

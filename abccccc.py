@@ -4,13 +4,15 @@ with open('Test Collections/cisi/CISI.ALL', 'r') as f:
     dic = {}
     
     data = f.read()
-    data_split = data.split('.I')[1:]
+    data_split = data.split('.I ')[1:]
+    # print(data_split)
     # data_split = data_split[1: len(data_split)]
     for doc in data_split:
         temp_dic = {}
-        palabras =  doc.split("\n")
-        index_id = palabras.index(".T")
-        id = " ".join(palabras[0:index_id])
+        palabras = doc.split("\n")
+        print(palabras)
+        # index_id = palabras.index(".T")
+        id = palabras[0] #" ".join(palabras[0:index_id])
         #titulo = " ".join(palabras[index_id + 1: index_t])
         #temp_dic['titulo'] = titulo
         # index_b = palabras.index(".W")

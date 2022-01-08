@@ -11,6 +11,7 @@ class Documents:
 
         self.doc_preprocesado = {doc : preprocesamiento.preprocesamiento_del_texto(self.doc_original[doc]["texto"]) for doc in self.doc_original}
 
+
         # print(self.doc_preprocesado)
 
 
