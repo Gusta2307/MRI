@@ -1,0 +1,648 @@
+1
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+2
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+4
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+8
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+9
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+10
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+12
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+13
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+15
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+18
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+22
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+23
+precision 0.0
+recobrado 0.0
+26
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+27
+precision 0.0
+recobrado 0.0
+29
+precision 0.0
+recobrado 0.0
+31
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+32
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+33
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+34
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+35
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+39
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+40
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+41
+precision 0.0
+recobrado 0.0
+49
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+50
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+51
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+52
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+53
+precision 0.0
+recobrado 0.0
+54
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+55
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+56
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+57
+precision 0.0
+recobrado 0.0
+58
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+59
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+61
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+62
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+66
+precision 0.0
+recobrado 0.0
+67
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+68
+precision 0.0
+recobrado 0.0
+69
+precision 0.0
+recobrado 0.0
+71
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+72
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+74
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+79
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+80
+precision 0.0
+recobrado 0.0
+81
+precision 0.0
+recobrado 0.0
+82
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+83
+precision 0.3333333333333333
+recobrado 0.004424778761061947
+84
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+85
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+86
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+87
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+93
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+94
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+95
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+97
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+98
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+99
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+100
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+101
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+102
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+103
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+104
+precision 0.0
+recobrado 0.0
+105
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+106
+precision 0.0
+recobrado 0.0
+107
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+108
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+109
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+110
+precision 0.0
+recobrado 0.0
+111
+precision 0.0
+recobrado 0.0
+112
+precision 0.0
+recobrado 0.0
+113
+precision 0.0
+recobrado 0.0
+114
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+116
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+118
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+119
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+120
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+121
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+122
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+123
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+126
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+128
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+130
+precision 0.0
+recobrado 0.0
+131
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+132
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+133
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+135
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+136
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+137
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+138
+precision 0.0
+recobrado 0.0
+139
+precision 0.0
+recobrado 0.0
+140
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+141
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+142
+precision 0.0
+recobrado 0.0
+143
+precision 0.0
+recobrado 0.0
+145
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+146
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+147
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+148
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+149
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+150
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+152
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+153
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+154
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+155
+precision 0.0
+recobrado 0.0
+156
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+157
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+158
+precision 0.0
+recobrado 0.0
+160
+precision 0.0
+recobrado 0.0
+161
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+163
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+164
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+165
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+167
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+168
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+169
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+170
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+171
+precision 0.0
+recobrado 0.0
+173
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+175
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+176
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+177
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+181
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+182
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+183
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+184
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+187
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+189
+precision 0.0
+recobrado 0.0
+190
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+196
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+200
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+201
+precision 0.0
+recobrado 0.0
+202
+precision 0.0
+recobrado 0.0
+203
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+204
+precision 0.0
+recobrado 0.0
+205
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+206
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+208
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+209
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+210
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+211
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+212
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+213
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+214
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+215
+precision 0.0
+recobrado 0.0
+216
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+217
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+218
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+219
+NO DEVOLVIO DOCUMENTOS
+precision 0
+recobrado 0.0
+223
+precision 0.0
+recobrado 0.0
+224
+precision 0.0
+recobrado 0.0
+225
+precision 0.0
+recobrado 0.0
+226
+227
+230
+231
+232
+233
+234
+241
+245
+246
+247
+250
+251
+252
+253
+254
+255
+257
+259
+261
+264
+265
+266
+267
+268
+269
+272
+273
+274
+275
+277
+283
+284
+285
+288
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+303
+304
+306
+314
+315
+316
+317
+321
+323
+327
+331
+332
+333
+335
+336
+338
+339
+340
+347
+348
+349
+352
+353
+355
+356
+360
+365
+Precision promedio 0.0
+recobrado promedio 0.0

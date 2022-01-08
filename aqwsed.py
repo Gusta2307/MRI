@@ -1,6 +1,6 @@
 import json
 
-with open('cranqrel', 'r') as f:
+with open('Test Collections/cisi/CISI.REL', 'r') as f:
     dic = {}
     data = f.read()
     data_split = data.split('\n')[1:]
@@ -9,6 +9,7 @@ with open('cranqrel', 'r') as f:
     for doc in data_split:
         
         line = [item.strip() for item in doc.split(" ") if item != ''] 
+        print(line)
         if not int(line[0]) in dic.keys():
             dic[int(line[0])] = {}
         
@@ -26,7 +27,7 @@ with open('cranqrel', 'r') as f:
 
 
     
-    with open('result.json', 'w', encoding='utf-8') as f:
+    with open('Test Collections/cisi/result_ CISI.json', 'w', encoding='utf-8') as f:
         json.dump(dic, f, ensure_ascii=False, indent=4)
 
         # print("id", id)

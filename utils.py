@@ -68,7 +68,7 @@ def preprocesamiento_expresion(token_list):
                     palabras_relacionadas[t['text']] = expansion_consulta.palabras_relacionadas(t['text'])
             else:
                 term_omitidos.add(t['text'])
-                t['text'] = ' '
+                t['text'] = ''
     return palabras_relacionadas, token_list, term_omitidos
             
 def preprocesamiento_frase(texto):

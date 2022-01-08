@@ -25,3 +25,4 @@ def contiene_palabra(relacionadas, texto):
             return 1
     
     return 0
+    

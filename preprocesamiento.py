@@ -2,12 +2,15 @@ import spacy
 import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.stem import PorterStemmer
+from nltk.corpus import stopwords
+
 
 # nltk.download('wordnet')
 
 nlp = spacy.load('en_core_web_sm')
 lemmatizer = WordNetLemmatizer()
 stemmer = PorterStemmer()
+stop_words = set(stopwords.words('english'))
 
 def tokenizacion(texto):
     doc = nlp(texto) # Crea un objeto de spacy tipo nlp
@@ -17,7 +20,7 @@ def tokenizacion(texto):
 
 def limpieza_del_texto_y_normalizacion(tokens):
     doc = nlp(tokens)
-    lexical_tokens = [t.orth_.lower() for t in doc if not t.is_punct | t.is_stop]
+    lexical_tokens = [t.orth_.lower() for t in doc if not t.is_punct and not t.orth_.lower() in stop_words]
     return lexical_tokens
 
 def lematizacion(tokens):

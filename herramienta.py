@@ -1,3 +1,4 @@
+from functools import partial
 import math
 
 from nltk.util import pr
@@ -10,7 +11,6 @@ def metodo_booleano(doc, query, parse):
     result = []
     doc_ok = set()
     palabras_relacionadas, token_list, term_omitidios = preprocesamiento_expresion(parser_expresiones_logicas(query)) if parse else preprocesamiento_frase(query) # Se parsea la consulta    
-
     for d in doc.doc_preprocesado.keys(): 
         expresion = "" #expresion final
         term = "" #termino actual
@@ -26,20 +26,21 @@ def metodo_booleano(doc, query, parse):
         if len(term) > 0: # verifico si tengo un termino sin analizar
             expresion += f"{str(expansion_consulta.contiene_palabra(palabras_relacionadas[term], doc.doc_preprocesado[d]))} "
 
-        # print(f"Document {d}", doc.doc_preprocesado[d])
-        # temp = [item['text'] for item in token_list if item['type'] == 'terms']
-        # print(f"Term", temp)
-        # print(expresion, end= '\n' + '-'*50 + '\n\n')
-
         evaluacion = int(eval(expresion)) # se evalua la expresion
         result.append(f"{d}: {expresion} ->  {evaluacion} " + ("OK!" if evaluacion else ""))
+        
+        # print("#"*60)
+
+        # print("Document", doc.doc_preprocesado[d])
+        # print("Palabras Rel", palabras_relacionadas)
+        # print("Terminos Omitidos", term_omitidios)
+        # print("Query", query)
+        # print(expresion)
+
+        # print("#"*60)
+
         if evaluacion:
             doc_ok.add(d)
-            print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
-            print(f"Document {d}", doc.doc_preprocesado[d])
-            temp = [item['text'] for item in token_list if item['type'] == 'terms']
-            print(f"Term", temp)  
-
             
     return result, doc_ok, term_omitidios
 
