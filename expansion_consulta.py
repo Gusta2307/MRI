@@ -22,8 +22,8 @@ def contiene_palabra(relacionadas, texto):
     # print("relacionadas", relacionadas)
 
     
-    # for p in relacionadas:
-    if relacionadas in texto:
+    for p in relacionadas:
+        if p in texto:
             return 1
     
     return 0

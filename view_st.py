@@ -1,3 +1,7 @@
+from faulthandler import disable
+from tkinter import DISABLED
+from tkinter.tix import Tree
+from attr import s
 import streamlit as st
 from doc_bd import Documents
 from herramienta import metodo_booleano
@@ -17,61 +21,68 @@ def get_info(document):
 
 st.title("Sistema de Recuperación de Información")
 # uploaded_file = st.file_uploader("Choose a CSV file", accept_multiple_files=False)
-df = open("./ej_pdf.json")
+
+coleccion = st.selectbox("Elija la coleccion de documentos a utilizar:", ["ADI", "CISI"])
+
+if coleccion == "ADI":
+    df = open("Test Collections/adi/adi_data.json")
+else:
+    df = open("Test Collections/cisi/cisi_data.json")
+
 document = Documents(df)
 
-
-# info_document = get_info(document)
-# st.code(info_document)
+col1, col2, col3, col4 = st.columns(4)
+col_list = [col1,col2, col3, col4]
 
 st.subheader("Términos indexados")
 
-str_terms = ''
+
+
+str_terms = """"""
 temp_index = 0
-for terms in document.terms:
-    str_terms += str(terms).ljust(25)
-    temp_index += 1
-    if temp_index == 3:
-        str_terms += '\n'
-        temp_index = 0
+# for terms in document.terms:
+index_term = 0
+index_cols = 0
 
-st.text(str_terms)
-
-metodo = st.selectbox("Elija el método que desea utilizar:", ["Booleano"])
+with st.expander("Ver términos", expanded=False):
+    while index_term < len(document.terms):
+        str_terms += str(document.terms[index_term]).ljust(19)
+        # with col_list[index_cols]:
+        #     st.write(str_terms)
+        index_term += 1
+        # index_cols = (index_cols + 1) % len(col_list)
+        temp_index += 1
+        if temp_index == 4:
+            # print(len(str_terms))
+            str_terms += '\n'
+            temp_index = 0
+    st.text(str_terms)
 
 query = st.text_input("Inserte la consulta.", "")
 
 str_result = ""
 if st.button("Submit") and query != "":
-    if metodo == "Booleano":
-        result, doc_ok, term_omitidos = metodo_booleano(document, query)
-        st.subheader("Output:")
-        str_result = "Evaluación de la consulta por documentos:\n\n"
-        for item in result:
-            str_result += str(item) + "\n"
-        st.code(str_result)
-        str_result = ''
-        if doc_ok:
-            str_result += "\nDocumentos recuperados: \n"
-            for item in doc_ok:
-                str_result += str(item) + "\n"
-            st.success(str_result)
-        else:
-            st.error("No se recupero ningún documento")
-        str_term =''
-        if term_omitidos:
-            str_term += f"Esta consulta contiene los siguientes términos que pueden ser considerados irrelevantes, lo cual puede afectar el resultado de la búsqueda de manera desfavorable \n"
-            for term in term_omitidos:
-                str_term += '- ' + str(term) + "\n"
-            st.warning(str_term)
-    elif metodo == "Vectorial":
-        result = document.metodo_vectorial(query)
-        str_result += "\nDocumentos recuperados: \n"
-        for item in result:
-            str_result += str(item) + "\n"
-        st.code(str_result)
+    result, doc_ok, term_omitidos = metodo_booleano(document, query)
+    st.subheader("Output:")
+    # str_result = "Evaluación de la consulta por documentos:\n\n"
+    # for item in result:
+    #     str_result += str(item) + "\n"
+    # st.code(str_result)
+    # str_result = ''
+    if doc_ok:
+        str_result += "Documentos recuperados: "
+        for item in doc_ok:
+            str_result += str(item) + " "
+        st.success(str_result)
+        list_rec = st.selectbox("Escoge el documento a ", doc_ok)
     else:
-        st.error("El método seleccionado aun no esta implementado.")
+        st.error("No se recupero ningún documento")
+    str_term =''
+    if term_omitidos:
+        str_term += f"Esta consulta contiene los siguientes términos que pueden ser considerados irrelevantes, lo cual puede afectar el resultado de la búsqueda de manera desfavorable \n"
+        for term in term_omitidos:
+            str_term += '- ' + str(term) + "\n"
+        st.warning(str_term)
 
 
 
