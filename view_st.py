@@ -1,7 +1,3 @@
-from faulthandler import disable
-from tkinter import DISABLED
-from tkinter.tix import Tree
-from attr import s
 import streamlit as st
 from doc_bd import Documents
 from herramienta import metodo_booleano
