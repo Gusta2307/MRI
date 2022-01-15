@@ -75,6 +75,8 @@ use of rapid publication methods .
 .I 5
 .T
 feasibility criteria for establishing specialized information centers
+.A
+ 
 .W
 some guidelines are presented for estimating
 the practicability of establishing specialized information
@@ -103,6 +105,8 @@ and advice will be provided companies for searching
 .I 7
 .T
 a computer oriented photo-composition system for star
+.A
+ 
 .W
 the system for producing nasa's scientific
 and technical aerospace reports, an example of computer
@@ -136,6 +140,8 @@ the american chemical society has begun
 .I 10
 .T
 accrediting information science programs .
+.A
+ 
 .W
 a plea is made that the responsibility for accrediting educational
 programs in information science rests with the a. d. i.
@@ -160,6 +166,8 @@ listing of subscriptions to journals .  implementation
 .I 12
 .T
 the materials information network .
+.A
+ 
 .W
 the elements of a network of information centers are described .
 the various files and retrieval procedures at each data center are
@@ -198,6 +206,8 @@ the high school and college level encoders .
 .T
 characteristics of programs for kwic and other computer-produced
 indexes
+.A
+ 
 .W
 this paper defines and discusses most of the
  different types of computer-produced indexes including
@@ -216,6 +226,8 @@ discusses computer input and output formats, most of the
 .I 16
 .T
 programing and coding techniques used in medlars
+.A
+
 .W
 this paper describes some of the programing
 logic of the medlars system .  the demand search
@@ -276,6 +288,8 @@ of complex symbol representation are posed .
 .I 20
 .T
 photographic and computer systems in biomedical information handling
+.A
+ 
 .W
 both photographic and computer-based systems
 are proposed in attaining more comprehensive understanding

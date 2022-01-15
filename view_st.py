@@ -1,42 +1,29 @@
+from turtle import title
 import streamlit as st
 from doc_bd import Documents
 from herramienta import metodo_booleano
 
-# def get_info(document):
-#     info = ""
-#     for k in document.keys:
-#         info += f"{k}: "
-#         for i in range(len(document.doc_original[k])):
-#             if i + 1 < len(document.doc_original[k]):
-#                 info += f"{document.doc_original[k][i]}, "
-#             else:
-#                 info += f"{document.doc_original[k][i]}"
-#         info += "\n"
-
-#     return info
 
 st.title("Sistema de Recuperación de Información")
-# uploaded_file = st.file_uploader("Choose a CSV file", accept_multiple_files=False)
 
 coleccion = st.selectbox("Elija la coleccion de documentos a utilizar:", ["ADI", "CISI"])
 
 if coleccion == "ADI":
     df = open("Test Collections/adi/adi_data.json")
+    df_pre = open("Test Collections/adi/adi_data_prep.json")
 else:
     df = open("Test Collections/cisi/cisi_data.json")
+    df_pre = open("Test Collections/cisi/cisi_data_prep.json")
 
-document = Documents(df)
+document = Documents(df, df_pre)
 
 col1, col2, col3, col4 = st.columns(4)
 col_list = [col1,col2, col3, col4]
 
 st.subheader("Términos indexados")
 
-
-
 str_terms = """"""
 temp_index = 0
-# for terms in document.terms:
 index_term = 0
 index_cols = 0
 
@@ -66,11 +53,18 @@ if st.button("Submit") and query != "":
     # st.code(str_result)
     # str_result = ''
     if doc_ok:
-        str_result += "Documentos recuperados: "
+        str_result += "Fueron recuperados algunos documentos"
+        title_doc = {}
         for item in doc_ok:
-            str_result += str(item) + " "
+            title_doc[document.doc_original[item]['titulo']] = item
+            # str_result += str(item) + " "
         st.success(str_result)
-        list_rec = st.selectbox("Escoge el documento a ", doc_ok)
+        # list_rec = st.multiselect("Elija documentos recuperados", title_doc.keys())
+        # print("QQQQQQQ", list_rec)
+        for item in range(len(doc_ok)):
+            with st.expander(list(title_doc.keys())[item].capitalize()):
+                info_text = f"Autor: {document.doc_original[list(doc_ok)[item]]['autor']}\n\n {document.doc_original[list(doc_ok)[item]]['texto'].capitalize()}"
+                st.text_area(" ",info_text, height=150, disabled=True)
     else:
         st.error("No se recupero ningún documento")
     str_term =''

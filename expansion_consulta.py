@@ -1,9 +1,6 @@
 from nltk.corpus import wordnet
 from nltk.util import pr
-
-
 from preprocesamiento import preprocesamiento_del_texto
-
 
 def palabras_relacionadas(palabra):
     syns = wordnet.synsets(palabra) 
@@ -15,16 +12,9 @@ def palabras_relacionadas(palabra):
             palabras = palabras | preprocesamiento_del_texto(l.name().replace("_", " "))
     return palabras
 
-def contiene_palabra(relacionadas, texto):
-    # relacionadas = palabras_relacionadas(palabra) 
-    # relacionadas.add(palabra)
-    # print(f"palabras -> {palabra} -> {texto}", palabras_relacionadas(palabra))
-    # print("relacionadas", relacionadas)
-
-    
+def contiene_palabra(relacionadas, texto):    
     for p in relacionadas:
         if p in texto:
             return 1
-    
     return 0
     

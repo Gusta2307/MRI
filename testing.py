@@ -3,13 +3,14 @@ from doc_bd import Documents
 from herramienta import *
 from datetime import datetime
 
-text = open("Test Collections/adi/adi_data.json")
-
-doc = Documents(text)
-
+text = open("Test Collections/cisi/cisi_data.json")
+text_prep = open("Test Collections/cisi/cisi_data_prep.json")
+print("A")
+doc = Documents(text, text_prep)
+print("B")
 querys = json.loads(open("Test Collections/adi/adi_query_bln.json").read())
 
-result = json.loads(open("Test Collections/adi/result_ADI.json").read())
+result = json.loads(open("Test Collections/cisi/result_CISI.json").read())
 
 # print(len(querys.keys()))
 
@@ -50,7 +51,7 @@ for q in querys.keys():
         print(q)
 
         current_time = datetime.now()
-        a, REC, b = metodo_booleano(doc, querys[q]['texto'], 1)
+        a, REC, b = metodo_booleano(doc, querys[q]['texto'])
         current_time = datetime.now() - current_time
         time += current_time.seconds
         # print("REC", len(REC))

@@ -12,7 +12,7 @@ import gensim
 nlp = spacy.load('en_core_web_sm')
 lemmatizer = WordNetLemmatizer()
 stemmer = PorterStemmer()
-stop_words = set(stopwords.words('english')) | set(gensim.parsing.preprocessing.STOPWORDS)
+stop_words = (set(stopwords.words('english')) | set(gensim.parsing.preprocessing.STOPWORDS)) - set(['computer', 'system', 'call', 'amount']) 
 
 def tokenizacion(texto):
     p = string.punctuation
@@ -47,4 +47,9 @@ def preprocesamiento_del_texto(texto):
     return set([item for item in tokens if not item.isspace()])
 
 
-#print(preprocesamiento_del_texto('pepe.also'))
+
+# print(preprocesamiento_del_texto('computer'))
+
+# print('computer' in stop_words)
+
+# print(set(gensim.parsing.preprocessing.STOPWORDS))
