@@ -2,18 +2,18 @@ import streamlit as st
 from doc_bd import Documents
 from herramienta import metodo_booleano
 
-def get_info(document):
-    info = ""
-    for k in document.keys:
-        info += f"{k}: "
-        for i in range(len(document.doc_original[k])):
-            if i + 1 < len(document.doc_original[k]):
-                info += f"{document.doc_original[k][i]}, "
-            else:
-                info += f"{document.doc_original[k][i]}"
-        info += "\n"
+# def get_info(document):
+#     info = ""
+#     for k in document.keys:
+#         info += f"{k}: "
+#         for i in range(len(document.doc_original[k])):
+#             if i + 1 < len(document.doc_original[k]):
+#                 info += f"{document.doc_original[k][i]}, "
+#             else:
+#                 info += f"{document.doc_original[k][i]}"
+#         info += "\n"
 
-    return info
+#     return info
 
 st.title("Sistema de Recuperación de Información")
 # uploaded_file = st.file_uploader("Choose a CSV file", accept_multiple_files=False)
