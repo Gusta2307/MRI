@@ -6,8 +6,8 @@ from nltk.corpus import stopwords
 import string
 import gensim 
 
-
-# nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 nlp = spacy.load('en_core_web_sm')
 lemmatizer = WordNetLemmatizer()
