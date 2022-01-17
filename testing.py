@@ -1,13 +1,14 @@
 import json
 from doc_bd import Documents
-from herramienta import *
+from motor_de_busqueda import *
 from datetime import datetime
 
 text = open("Test Collections/cisi/cisi_data.json")
 text_prep = open("Test Collections/cisi/cisi_data_prep.json")
-print("A")
-doc = Documents(text, text_prep)
-print("B")
+text_raiz = open("Test Collections/cisi/cisi_data_prep_raiz.json")
+
+doc = Documents(text, text_prep, text_raiz)
+
 querys = json.loads(open("Test Collections/adi/adi_query_bln.json").read())
 
 result = json.loads(open("Test Collections/cisi/result_CISI.json").read())
@@ -40,22 +41,16 @@ for q in querys.keys():
     if q in result:
         index += 1
         REL = set(result[q].keys())
-        # for d in result[q].keys():
-        #     if result[q][d] != -1:
-        #         REL.add(d)
-    
 
-        #print(querys[q]['texto']) 
-        #print(doc)
         print("\n---------------------------------------------------")
         print(q)
 
         current_time = datetime.now()
-        a, REC, b = metodo_booleano(doc, querys[q]['texto'])
+        REC, sw, _= metodo_booleano(doc, querys[q]['texto'])
         current_time = datetime.now() - current_time
         time += current_time.seconds
-        # print("REC", len(REC))
-        # print("REL", len(REL))
+        print("REC", len(REC))
+        print("REL", len(REL))
         RR = REL & REC
         cant_rr += len(RR)
         RI = REC - RR
@@ -74,7 +69,6 @@ for q in querys.keys():
 
         print("precision", p)
         print("recobrado", r) 
-        # break
 
 print("\nPrecision promedio", pre/index)
 print("recobrado promedio", re/index)

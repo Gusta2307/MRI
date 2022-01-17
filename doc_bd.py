@@ -1,15 +1,20 @@
-from collections import Counter
-from utils import truncate
 import json
+from tkinter.messagebox import NO
 import preprocesamiento
 class Documents:
-    def __init__(self, original, preprocesado=None):
+    def __init__(self, original, preprocesado=None, raices = None):
         self.doc_original = json.loads(original.read())
+        self.doc_preprocesado = {}
+        self.raices_terminos = {}
         
-        if preprocesado is None:
-            self.doc_preprocesado = {str(doc) : list(preprocesamiento.preprocesamiento_del_texto(self.doc_original[doc]["texto"])) for doc in self.doc_original}
+        if preprocesado is None or raices is None:
+            for d in self.doc_original:
+                term, raiz = preprocesamiento.preprocesamiento_del_texto(self.doc_original[d]["texto"])
+                self.doc_preprocesado[d] = list(term)
+                self.raices_terminos[d] = list(raiz)
         else:
             self.doc_preprocesado = json.loads(preprocesado.read())
+            self.raices_terminos = json.loads(raices.read())
         
         self.doc_count = len(self.doc_original.keys())
 
@@ -18,10 +23,8 @@ class Documents:
         self.__initialize()
 
     def __initialize(self):
-        for d in self.doc_original.keys():
-            list_term_ocurr = list(Counter(self.doc_preprocesado[d]).items())
-            list_term_ocurr.sort(key = lambda x: x[0])
-            for t,_ in list_term_ocurr:
+        for d in self.doc_preprocesado.keys():
+            for t in self.doc_preprocesado[d]:
                 if t not in self.terms:
                     self.terms.append(t)
 

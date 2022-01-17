@@ -1,8 +1,8 @@
-import spacy
-import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
+import spacy
+import nltk
 import string
 import gensim 
 
@@ -33,23 +33,13 @@ def lematizacion(tokens):
     lemas = [lemmatizer.lemmatize(str(tok), pos='v') for tok in doc]
     return lemas
 
-# def convertir_en_raices(tokens):
-#     stems = [stemmer.stem(token) for token in tokens]
-#     return stems
-    
+def convertir_en_raices(tokens):
+    stems = [stemmer.stem(token) for token in tokens]
+    return stems
+
 def preprocesamiento_del_texto(texto):
     tokens = tokenizacion(texto)
-    # print("TOKENIZACION", tokens)
     tokens = limpieza_del_texto_y_normalizacion(" ".join(tokens))
-    # print("LIMPIEZA", tokens, end='\n\n')
     tokens = lematizacion(" ".join(tokens))
-    # print('LEMATIZACION', tokens, end='\n\n')
-    return set([item for item in tokens if not item.isspace()])
-
-
-
-# print(preprocesamiento_del_texto('computer'))
-
-# print('computer' in stop_words)
-
-# print(set(gensim.parsing.preprocessing.STOPWORDS))
+    term = [item for item in tokens if not item.isspace()]
+    return set(term), set(convertir_en_raices(term))

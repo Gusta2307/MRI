@@ -9,7 +9,7 @@ def palabras_relacionadas(palabra):
         for l in i.lemmas():
             if '-' in l.name(): 
                 continue
-            palabras = palabras | preprocesamiento_del_texto(l.name().replace("_", " "))
+            palabras = palabras | preprocesamiento_del_texto(l.name().replace("_", " "))[0]
     return palabras
 
 def contiene_palabra(relacionadas, texto):    
@@ -17,4 +17,3 @@ def contiene_palabra(relacionadas, texto):
         if p in texto:
             return 1
     return 0
-    
