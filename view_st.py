@@ -11,9 +11,11 @@ coleccion = st.selectbox(
 if coleccion == "ADI":
     df = open("Test Collections/adi/adi_data.json")
     df_pre = open("Test Collections/adi/adi_data_prep.json")
+    df_pre_raiz = open("Test Collections/adi/adi_data_prep_raiz.json")
 else:
     df = open("Test Collections/cisi/cisi_data.json")
     df_pre = open("Test Collections/cisi/cisi_data_prep.json")
+    df_pre_raiz = open("Test Collections/cisi/cisi_data_prep_raiz.json")
 
 document = Documents(df, df_pre)
 
