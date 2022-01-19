@@ -11,6 +11,11 @@ class Documents:
                 term, raiz = preprocesamiento.preprocesamiento_del_texto(self.doc_original[d]["texto"])
                 self.doc_preprocesado[d] = list(term)
                 self.raices_terminos[d] = list(raiz)
+
+            with open('Test Collections/cisi/cisi_data_prep.json', 'w', encoding='utf-8') as f:
+                json.dump(self.doc_preprocesado, f, ensure_ascii=False, indent=4)
+            with open('Test Collections/cisi/cisi_data_prep_raiz.json', 'w', encoding='utf-8') as f:
+                json.dump(self.raices_terminos, f, ensure_ascii=False, indent=4)
         else:
             self.doc_preprocesado = json.loads(preprocesado.read())
             self.raices_terminos = json.loads(raices.read())
