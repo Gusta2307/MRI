@@ -56,7 +56,7 @@ if st.button("Submit") and query != "":
                 title_doc[document.doc_original[item]['titulo']] = item
             st.success(str_result)
             for item in range(len(doc_ok)):
-                with st.expander(f'{item}.' + list(title_doc.keys())[item].capitalize()):
+                with st.expander(f'{list(doc_ok)[item]}. ' + list(title_doc.keys())[item].capitalize()):
                     info_text = f"Autor: {document.doc_original[list(doc_ok)[item]]['autor']}\n\n {document.doc_original[list(doc_ok)[item]]['texto'].capitalize()}"
                     st.text_area(" ", info_text, height=150, disabled=True)
         else:
