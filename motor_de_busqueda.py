@@ -1,6 +1,4 @@
 import math
-from tkinter.messagebox import NO
-from itsdangerous import exc
 from nltk.util import pr
 from utils import *
 from doc_bd import Documents

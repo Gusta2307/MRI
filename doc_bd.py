@@ -1,5 +1,4 @@
 import json
-from tkinter.messagebox import NO
 import preprocesamiento
 class Documents:
     def __init__(self, original, preprocesado=None, raices = None):
