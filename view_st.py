@@ -17,7 +17,7 @@ else:
     df_pre = open("Test Collections/cisi/cisi_data_prep.json")
     df_pre_raiz = open("Test Collections/cisi/cisi_data_prep_raiz.json")
 
-document = Documents(df, df_pre)
+document = Documents(df, df_pre, df_pre_raiz)
 
 col1, col2, col3, col4 = st.columns(4)
 col_list = [col1, col2, col3, col4]
