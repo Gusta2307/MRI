@@ -19,7 +19,7 @@ def metodo_booleano(doc, query):
                     if term != '#': # si term es > 0 => estoy analizando un termino
                         # try:
                         expansion = expansion_consulta.contiene_palabra(palabras_relacionadas[term], doc.doc_preprocesado[d])
-                        raiz = raices[term] in doc.raices_terminos
+                        raiz = raices[term] in doc.raices_terminos[d]
                         expresion += f"{str(1)} " if (expansion or raiz) else f"{str(0)} "
                         # except:
                         #     return None, None, False
@@ -34,17 +34,15 @@ def metodo_booleano(doc, query):
             if term != '#':
                 # try:
                 expansion = expansion_consulta.contiene_palabra(palabras_relacionadas[term], doc.doc_preprocesado[d])
-                raiz = raices[term] in doc.raices_terminos
+                raiz = raices[term] in doc.raices_terminos[d]
                 expresion += f"{str(1)} " if (expansion or raiz) else f"{str(0)} "
                 # except:
                 #     return None, None, False
             else:
                 expresion += '0 '
         
-        # print(expresion)
         if int(eval(expresion)): # se evalua la expresion
             doc_ok.add(d)
             
-        # print("doc", doc_ok)
     return doc_ok, stop_words, True
 
