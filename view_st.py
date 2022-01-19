@@ -50,7 +50,7 @@ if st.button("Submit") and query != "":
         st.warning('Consulta mal formulada.')
     else:
         if doc_ok:
-            str_result += "Fueron recuperados algunos documentos"
+            str_result += f"Fueron recuperados {len(doc_ok)} documento" + "" if len(doc_ok) == 0 else "s" 
             title_doc = {}
             for item in doc_ok:
                 title_doc[document.doc_original[item]['titulo']] = item
