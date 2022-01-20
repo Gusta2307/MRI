@@ -43,3 +43,4 @@ def preprocesamiento_del_texto(texto):
     tokens = lematizacion(" ".join(tokens))
     term = [item for item in tokens if not item.isspace()]
     return set(term), set(convertir_en_raices(term))
+

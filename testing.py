@@ -3,15 +3,15 @@ from doc_bd import Documents
 from motor_de_busqueda import *
 from datetime import datetime
 
-text = open("Test Collections/cisi/cisi_data.json")
-text_prep = open("Test Collections/cisi/cisi_data_prep.json")
-text_raiz = open("Test Collections/cisi/cisi_data_prep_raiz.json")
+text = open("Test Collections/adi/adi_data.json")
+text_prep = open("Test Collections/adi/adi_data_prep.json")
+text_raiz = open("Test Collections/adi/adi_data_prep_raiz.json")
 
 doc = Documents(text, text_prep, text_raiz)
 
 querys = json.loads(open("Test Collections/adi/adi_query_bln.json").read())
 
-result = json.loads(open("Test Collections/cisi/result_CISI.json").read())
+result = json.loads(open("Test Collections/adi/result_ADI.json").read())
 
 # print(len(querys.keys()))
 

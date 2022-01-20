@@ -17,3 +17,4 @@ def contiene_palabra(relacionadas, texto):
         if p in texto:
             return 1
     return 0
+
