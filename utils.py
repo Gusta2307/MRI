@@ -1,4 +1,3 @@
-from unittest import result
 from preprocesamiento import preprocesamiento_del_texto
 import expansion_consulta
 

@@ -1,8 +1,4 @@
-import math
-from nltk.util import pr
 from utils import *
-from doc_bd import Documents
-import preprocesamiento
 import expansion_consulta
 
 def metodo_booleano(doc, query):    
@@ -15,12 +11,12 @@ def metodo_booleano(doc, query):
             if item['type'] == "op": # verifico si es un operador
                 if len(term) > 0:
                     if term != '#': # si term es > 0 => estoy analizando un termino
-                        # try:
-                        expansion = expansion_consulta.contiene_palabra(palabras_relacionadas[term], doc.doc_preprocesado[d])
-                        raiz = raices[term] in doc.raices_terminos[d]
-                        expresion += f"{str(1)} " if (expansion or raiz) else f"{str(0)} "
-                        # except:
-                        #     return None, None, False
+                        try:
+                            expansion = expansion_consulta.contiene_palabra(palabras_relacionadas[term], doc.doc_preprocesado[d])
+                            raiz = raices[term] in doc.raices_terminos[d]
+                            expresion += f"{str(1)} " if (expansion or raiz) else f"{str(0)} "
+                        except:
+                            return None, None, False
                         term = "" # restablezco term
                     else:
                         expresion += '0 '
@@ -30,12 +26,12 @@ def metodo_booleano(doc, query):
         
         if len(term) > 0: # verifico si tengo un termino sin analizar
             if term != '#':
-                # try:
-                expansion = expansion_consulta.contiene_palabra(palabras_relacionadas[term], doc.doc_preprocesado[d])
-                raiz = raices[term] in doc.raices_terminos[d]
-                expresion += f"{str(1)} " if (expansion or raiz) else f"{str(0)} "
-                # except:
-                #     return None, None, False
+                try:
+                    expansion = expansion_consulta.contiene_palabra(palabras_relacionadas[term], doc.doc_preprocesado[d])
+                    raiz = raices[term] in doc.raices_terminos[d]
+                    expresion += f"{str(1)} " if (expansion or raiz) else f"{str(0)} "
+                except:
+                    return None, None, False
             else:
                 expresion += '0 '
         

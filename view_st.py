@@ -47,7 +47,7 @@ if st.button("Submit") and query != "":
     st.subheader("Output:")
 
     if not ok:
-        st.warning('Consulta mal formulada.')
+        st.warning('La consulta esta mal formulada.')
     else:
         if doc_ok:
             str_result += f"Fueron recuperados {len(doc_ok)} documento" + ("s" if len(doc_ok) > 1 else "")
